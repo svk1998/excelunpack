@@ -7,7 +7,7 @@ ExcelUnpack is a Python tool that allows you to extract embedded attachments fro
 You can install ExcelUnpack using pip:
 
 ```
-pip install excelunpack
+pip install excel-unpack
 ```
 
 ## Usage
