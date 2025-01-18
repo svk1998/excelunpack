@@ -21,7 +21,7 @@ extract-xlsx-attachments path/to/excel/file.xlsx path/to/output/folder
 ### As a Python Library:
 
 ```python
-from excelunpack import extract_attachments_from_xlsx
+from excelunpack.excel_attachments import extract_attachments_from_xlsx
 
 xlsx_file = "path/to/excel/file.xlsx"
 output_dir = "path/to/output/folder"
