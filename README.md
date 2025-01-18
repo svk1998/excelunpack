@@ -1,7 +1,7 @@
 
 # ExcelUnpack
 
-![Build and Deploy Status](https://github.com/svk1998/exceunpack/actions/workflows/python-publish.yml/badge.svg)
+![Build and Deploy Status](https://github.com/svk1998/excelunpack/actions/workflows/python-publish.yml/badge.svg)
 [![PyPI Version](https://img.shields.io/pypi/v/excel-unpack)](https://pypi.org/project/excel-unpack/)
 ![PyPI Downloads](https://img.shields.io/pypi/dm/excel-unpack)
 
