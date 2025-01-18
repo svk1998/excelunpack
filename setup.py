@@ -8,10 +8,11 @@ setup(
         "olefile",
     ],
     entry_points={
-        "console_scripts": [
-            "extract-xlsx-attachments=excelunpack.extract_attachments:main",
-        ],
+    "console_scripts": [
+        "extract-xlsx-attachments=excelunpack.extract_attachments:extract_attachments_from_xlsx",
+    ],
     },
+
     author="Your Name",
     description="A tool to extract attachments from Excel (XLSX) files.",
     long_description=open("README.md").read(),
