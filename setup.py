@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
     "console_scripts": [
-        "extract-xlsx-attachments=excelunpack.extract_attachments:extract_attachments_from_xlsx",
+        "excel-unpack=excelunpack.cli:main"
     ],
     },
 

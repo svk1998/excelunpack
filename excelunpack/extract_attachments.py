@@ -1,9 +1,14 @@
+import random
+import string
 import zipfile
 import os
 import shutil
 import olefile
 import xml.etree.ElementTree as ET
 
+def generate_random_name(length=5):
+    # Generate a random string of specified length from uppercase letters and digits
+    return ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
 
 def extract_attachments_from_xlsx(xlsx_file, output_dir):
     """
@@ -78,6 +83,8 @@ def extract_attachments_from_xlsx(xlsx_file, output_dir):
                             data = stream.read()
                             parts = data.split(b'\x00', maxsplit=4)
                             filename = parts[3].decode('utf-8', errors='ignore')  # Extract the filename
+                            if filename is None:
+                                filename = generate_random_name()
                             file_content = parts[-1]  # Binary content of the embedded file
                             output_path = os.path.join(sheet_folder, filename)
                             with open(output_path, 'wb') as file:
