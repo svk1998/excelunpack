@@ -5,8 +5,7 @@
 [![PyPI Version](https://img.shields.io/pypi/v/excel-unpack)](https://pypi.org/project/excel-unpack/)
 ![PyPI Downloads](https://img.shields.io/pypi/dm/excel-unpack)
 ![Python Versions](https://img.shields.io/pypi/pyversions/excel-unpack)
-![Code Quality](https://img.shields.io/codefactor/grade/github/svk1998/excelunpack/master)
-![Code Quality](https://img.shields.io/codefactor/grade/github/svk1998/excelunpack/main)
+![Issues](https://img.shields.io/github/issues/svk1998/excelunpack)
 
 ExcelUnpack is a Python library and command-line tool to extract and organize attachments from Excel files.
 
